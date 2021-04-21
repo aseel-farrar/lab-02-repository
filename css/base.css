@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #007991;
+}
+
+h2,
+h1 {
+  font-size: x-large;
+  color: aliceblue;
+  font-family: "Original Surfer", cursive;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+h1 {
+  font-family: "Coda Caption", sans-serif;
+  font-size: xxx-large;
+}
+
+.removeClass {
+  display: none;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #007991; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #78ffd7d5,
+    #007991
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #78ffd77e,
+    #007991
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+img,
+p {
+  width: 15em;
+}
+
+img {
+  height: 20em;
+  border-radius: 20px;
+  vertical-align: middle;
+  margin: 20px 10px;
+  box-shadow: 5px 5px 5px 5px rgba(169, 201, 233, 0.527);
+}
+
+div {
+  margin: 10px;
+}
+
+footer,
+header {
+  line-height: 3;
+  width: 100%;
+  background-color: #007991;
+}
+
+header{
+  padding-bottom: 20px;
+
+}
+option,
+select {
+  font-family: "Original Surfer", cursive;
+  font-size: medium;
+  background-color: aliceblue;
+  ;
+
+}
