@@ -13,24 +13,6 @@ body {
   background-color: #007991;
 }
 
-h2,
-h1 {
-  font-size: x-large;
-  color: aliceblue;
-  font-family: "Original Surfer", cursive;
-  text-shadow: 2px 2px 4px #000000;
-
-}
-
-h1 {
-  font-family: "Coda Caption", sans-serif;
-  font-size: xxx-large;
-}
-
-.removeClass {
-  display: none;
-}
-
 main {
   width: 80%;
   margin: auto;
@@ -51,41 +33,4 @@ main {
     #78ffd77e,
     #007991
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-img,
-p {
-  width: 15em;
-}
-
-img {
-  height: 20em;
-  border-radius: 20px;
-  vertical-align: middle;
-  margin: 20px 10px;
-  box-shadow: 5px 5px 5px 5px rgba(169, 201, 233, 0.527);
-}
-
-div {
-  margin: 10px;
-}
-
-footer,
-header {
-  line-height: 3;
-  width: 100%;
-  background-color: #007991;
-}
-
-header{
-  padding-bottom: 20px;
-
-}
-option,
-select {
-  font-family: "Original Surfer", cursive;
-  font-size: medium;
-  background-color: aliceblue;
-  ;
-
 }

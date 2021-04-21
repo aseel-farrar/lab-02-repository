@@ -1,0 +1,38 @@
+h2,
+h1 {
+  font-size: x-large;
+  color: aliceblue;
+  font-family: "Original Surfer", cursive;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+h1 {
+  font-family: "Coda Caption", sans-serif;
+  font-size: xxx-large;
+}
+
+p {
+  width: 15em;
+}
+
+img {
+  width: 15em;
+
+  height: 20em;
+  border-radius: 20px;
+  vertical-align: middle;
+  margin: 20px 10px;
+  box-shadow: 5px 5px 5px 5px rgba(169, 201, 233, 0.527);
+}
+
+div {
+  margin: 10px;
+}
+
+option,
+select {
+  font-family: "Original Surfer", cursive;
+  font-size: medium;
+  background-color: aliceblue;
+}
