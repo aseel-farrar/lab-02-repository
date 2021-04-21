@@ -15,15 +15,12 @@ function Animal(animal) {
 
 //prototype function to render the animal
 Animal.prototype.render = function () {
-
   let animalTemplateClone = $('.photo-template').eq(0).clone();
   animalTemplateClone.find('h2').text(this.title);
+  animalTemplateClone.find('h2').addClass(this.keyword);
   animalTemplateClone.find('img').attr('src', this.img);
   animalTemplateClone.find('img').attr('alt', this.title);
   animalTemplateClone.find('p').text(this.description);
-  //TODO: add class to div dose not work
-  animalTemplateClone.find('div').addClass(this.keyword);
-
   $('main').append(animalTemplateClone);
 };
 
@@ -45,21 +42,14 @@ $.ajax('./data/page-1.json')
 
 // build the filter
 $('select').on('change', function () {
-  $('div').toggleClass('removeClass');//>>>>>>>>>>>>>>>
+  $('div').hide();
   Animal.all.forEach(function (item) {
-
-
     if (item.keyword === $('select').val()) {
-
-      //TODO : select the selector to remove the class from the selected elements
-      // $(``).toggleClass('removeClass');
-
-      // console.log(1);
-      console.log(item);
+      $(`.${$('select').val()}`).parent().show();
     }
-
+    else if ($('select').val() === 'default') {
+      $('div').show();
+    }
   });
-
 });
 
-// console.log(Animal.all);
